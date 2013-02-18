@@ -1,6 +1,4 @@
 // Programmer: Anthony Mascia
-// Course: Discrete Structures
-// Due Date: December 6, 2012
 // RSA Cryptosystem with Big Integer Library
 //
 // Purpose:
