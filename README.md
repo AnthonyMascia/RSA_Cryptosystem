@@ -9,7 +9,8 @@ The Purpose of this program is to demonstrate the use of the RSA
 Cryptosystem by combining various methods and algorithms to obtain
 the private and public key of a string message and then encrypting/decrypting
 the message for the user to see.
-</ br></ br>
+<br /><br />
+
 
 This is what the beginning of the program looks like.
 Displays:
@@ -25,13 +26,13 @@ To find the private key, the program uses the Extended Euclidean Algorithm
 ![Private/Public Keys](http://i.imgur.com/YzMH4zw.png)
 
 
-Now it is time for the encrpyting and decrypting process
-Encrypting:
+Now it is time for the encrpyting and decrypting process<br />
+Encrypting:<br />
 The string message is put in to an array of characters, and then each character is encrypted using
 the successive squaring algorithm, and then put sequentially in to an array of integers
 Then the array of encrypted numbers is displayed to the user; this is the encrypted number
-
-Decrypting:
+<br /><br />
+Decrypting:<br />
 First, the program goes through array and decrypt ever encrypted number one by one
 using the successive squaring algorithm again
 We then convert static cast the int to a character
