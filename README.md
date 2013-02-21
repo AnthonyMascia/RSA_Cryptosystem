@@ -12,7 +12,6 @@ the message for the user to see.
 <br /><br />
 
 ## Beginning of Program ##
-This is what the beginning of the program looks like.<br />
 <b>Displays:</b><br />
 <ul>
 <li>A welcome message.</li><br />
@@ -21,7 +20,7 @@ This is what the beginning of the program looks like.<br />
 ![Start of Program](http://i.imgur.com/PING7lI.png)
 <br /><br />
 
-## User Input ##
+## Obtaining Public and Private Keys ##
 <ul>
 <li>The program then picks two random prime numbers</li><br />
 <li>These primes are then used to determine phi and n, which are the variables that will
@@ -39,7 +38,6 @@ obtain the private and public keys</li><br />
 the successive squaring algorithm, and then put sequentially in to an array of integers</li>
 <li>Then the array of encrypted numbers is displayed to the user; this is the encrypted number</li>
 </ul>
-<br /><br />
 
 <b>Decrypting:</b><br />
 <ul>
