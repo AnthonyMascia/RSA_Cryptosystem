@@ -11,23 +11,24 @@ the private and public key of a string message and then encrypting/decrypting
 the message for the user to see.
 <br /><br />
 
-
-This is what the beginning of the program looks like.
-Displays:
+## Beginning of Program ##
+This is what the beginning of the program looks like.<br />
+Displays:<br />
 A welcome message.
-Asks user if they want to use a predetermined list of 1,000 primes or their own
+Asks user if they want to use a predetermined list of 1,000 primes or their own<br />
 ![Start of Program](http://i.imgur.com/PING7lI.png)
+<br /><br />
 
-
-The program then picks two random prime numbers
-These primes are then used to determine phi and n, which are the variables that will obtain the private and public keys
-To find the public key, the program finds the GCD of e and m
-To find the private key, the program uses the Extended Euclidean Algorithm
+## User Input ##
+The program then picks two random prime numbers<br />
+These primes are then used to determine phi and n, which are the variables that will obtain the private and public keys<br />
+To find the public key, the program finds the GCD of e and m<br />
+To find the private key, the program uses the Extended Euclidean Algorithm<br />
 ![Private/Public Keys](http://i.imgur.com/YzMH4zw.png)
+<br /><br />
 
-
-Now it is time for the encrpyting and decrypting process<br />
-Encrypting:<br />
+## Encryption and Decryption ##
+<e>Encrypting:</e><br />
 The string message is put in to an array of characters, and then each character is encrypted using
 the successive squaring algorithm, and then put sequentially in to an array of integers
 Then the array of encrypted numbers is displayed to the user; this is the encrypted number
