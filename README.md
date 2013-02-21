@@ -12,29 +12,18 @@ the message for the user to see.
 <br /><br />
 
 
-This is what the beginning of the program looks like.
-Displays:
-A welcome message.
-Asks user if they want to use a predetermined list of 1,000 primes or their own
-![Start of Program](http://i.imgur.com/PING7lI.png)
-
-
-The program then picks two random prime numbers
-These primes are then used to determine phi and n, which are the variables that will obtain the private and public keys
-To find the public key, the program finds the GCD of e and m
-To find the private key, the program uses the Extended Euclidean Algorithm
-![Private/Public Keys](http://i.imgur.com/YzMH4zw.png)
-
-
-Now it is time for the encrpyting and decrypting process<br />
-Encrypting:<br />
-The string message is put in to an array of characters, and then each character is encrypted using
-the successive squaring algorithm, and then put sequentially in to an array of integers
-Then the array of encrypted numbers is displayed to the user; this is the encrypted number
+## The Start Screen ##
+Background music is playing throughout
+![Start Screen](http://i.imgur.com/ChJ3c5a.png)
 <br /><br />
-Decrypting:<br />
-First, the program goes through array and decrypt ever encrypted number one by one
-using the successive squaring algorithm again
-We then convert static cast the int to a character
-This character is then stored in to the array of characters until every number is converted and we have a message
-![Encrypting/Decrypting](http://i.imgur.com/rsCxOvn.png)
+
+
+## Intructions ##
+![Private/Public Keys](http://i.imgur.com/OoKosMr.png)
+<br /><br />
+
+## Beginning of the Game ##
+The user begins as the dark green square located at the bottom center of the screen.<br />
+The longer multi-colored rectangles are the vehicles which the user has to avoid, if they get hit by one, 
+hen a "squish" sound is played, and the user loses points and a life.
+![Beginning](http://i.imgur.com/lXxb0uLh.png)
