@@ -22,7 +22,7 @@ the message for the user to see.
 
 ## Obtaining Public and Private Keys ##
 <ul>
-<li>The program then picks two random prime numbers</li><br />
+<li>If the user enters 1, the program picks two random prime numbers</li><br />
 <li>These primes are then used to determine phi and n, which are the variables that will
 obtain the private and public keys</li><br />
 <li>To find the public key, the program finds the GCD of e and m</li><br />
