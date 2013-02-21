@@ -13,8 +13,8 @@ the message for the user to see.
 
 ## Beginning of Program ##
 This is what the beginning of the program looks like.<br />
-Displays:<br />
-A welcome message.
+<b>Displays:</b><br />
+A welcome message.<br />
 Asks user if they want to use a predetermined list of 1,000 primes or their own<br />
 ![Start of Program](http://i.imgur.com/PING7lI.png)
 <br /><br />
