@@ -14,16 +14,17 @@ the message for the user to see.
 ## Beginning of Program ##
 This is what the beginning of the program looks like.<br />
 <b>Displays:</b><br />
-A welcome message.<br />
-Asks user if they want to use a predetermined list of 1,000 primes or their own<br />
+<li>A welcome message.</li><br />
+<li>Asks user if they want to use a predetermined list of 1,000 primes or their own</li><br />
 ![Start of Program](http://i.imgur.com/PING7lI.png)
 <br /><br />
 
 ## User Input ##
-The program then picks two random prime numbers<br />
-These primes are then used to determine phi and n, which are the variables that will obtain the private and public keys<br />
-To find the public key, the program finds the GCD of e and m<br />
-To find the private key, the program uses the Extended Euclidean Algorithm<br />
+<li>The program then picks two random prime numbers</li><br />
+<li>These primes are then used to determine phi and n, which are the variables that will
+obtain the private and public keys</li><br />
+<li>To find the public key, the program finds the GCD of e and m</li><br />
+<li>To find the private key, the program uses the Extended Euclidean Algorithm</li><br />
 ![Private/Public Keys](http://i.imgur.com/YzMH4zw.png)
 <br /><br />
 
