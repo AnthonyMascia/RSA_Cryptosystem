@@ -20,11 +20,13 @@ This is what the beginning of the program looks like.<br />
 <br /><br />
 
 ## User Input ##
+<ul>
 <li>The program then picks two random prime numbers</li><br />
 <li>These primes are then used to determine phi and n, which are the variables that will
 obtain the private and public keys</li><br />
 <li>To find the public key, the program finds the GCD of e and m</li><br />
 <li>To find the private key, the program uses the Extended Euclidean Algorithm</li><br />
+</ul>
 ![Private/Public Keys](http://i.imgur.com/YzMH4zw.png)
 <br /><br />
 
